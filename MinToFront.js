@@ -25,7 +25,6 @@ const minToFront= (matriz)=>{
     val=matriz[min]
     matriz=popFront(matriz,min)
     matriz=pushFront(matriz,val,0)
-    console.log(matriz)
 
     return matriz
 }
